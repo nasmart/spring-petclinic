@@ -9,9 +9,8 @@ build/*
 .attach_pid*
 .idea
 *.iml
-/target
-.sts4-cache/
 .vscode
-_site/
 *.css
-!petclinic.css
+.springjavaformatconfig
+.devcontainer/*
+.editorconfig

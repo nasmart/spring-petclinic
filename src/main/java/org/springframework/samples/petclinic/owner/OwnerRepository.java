@@ -79,4 +79,7 @@ public interface OwnerRepository extends Repository<Owner, Integer> {
 	@Transactional(readOnly = true)
 	Page<Owner> findAll(Pageable pageable);
 
+	@Query(value = "SELECT max(id) FROM Owner owner")
+	public Integer max();
+
 }
