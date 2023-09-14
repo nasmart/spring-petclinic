@@ -10,7 +10,6 @@ build/*
 .idea
 *.iml
 .vscode
-*.css
 .springjavaformatconfig
 .devcontainer/*
 .editorconfig
