@@ -13,3 +13,9 @@ build/*
 .springjavaformatconfig
 .devcontainer/*
 .editorconfig
+.github/workflows/*
+.gitattributes
+.gitpod.yml
+bin/*
+backup/*
+.DS_Store
